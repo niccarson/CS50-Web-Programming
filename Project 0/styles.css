@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: rgb(245, 237, 220);
+    background-color: rgb(40, 40, 40);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -10,18 +10,18 @@ body {
     width: 100%;
     text-align: right;
     font-weight: bold;
-    background-color: rgb(220, 192, 164);
+    background-color: rgb(84, 84, 84);
 }
 
 .pagename{
     padding-left: 20px;
     padding-right: 20px;
-    color: rgb(40, 33, 25);
+    color: rgb(232, 232, 232);
     font-size: large;
 }
 
 .pagename:hover {
-    color: rgb(126, 101, 78);
+    color: rgb(137, 137, 137);
 }
 
 #advancedlink, #googlelink{
@@ -29,7 +29,7 @@ body {
 }
 
 #searchform {
-    padding-top: 200px;
+    padding-top: 100px;
     text-align: center;
 }
 
@@ -37,29 +37,85 @@ body {
     width: 600px;
     height: 30px;
     font-size: large;
-    border-radius: 50px;
+    color: rgb(232, 232, 232);
+    border-radius: 20px;
     text-indent: 30px;
+    margin-bottom: 20px;
+    background-color: rgb(49, 49, 49);
+    border-color: rgb(168, 168, 168);
 }
 
-#searchbutton {
-    font-size: large;
+.searchbutton {
+    font-size: small;
+    font-weight: bold;
+    height: 40px;
+    width: 130px;
     margin: 8px;
-    border-radius: 10px;
+    border-radius: 3px;
+    border: 0px;
+    background-color: rgb(84, 84, 84);
+    color: rgb(232, 232, 232);
+}
+
+.searchbutton:hover {
+    border: 1px solid rgb(185, 185, 185);
+    cursor:pointer;
 }
 
 #searchbuttoncontainer {
     margin: 20px;
 }
 
-.asearchbar {
-    display: flex;
-    width: 1000px;
-    height: 40px;
-    font-size: large;
-    border-radius: 50px;
-    text-indent: 30px;
+.aoption {
+    width: 30%;
+    margin-left: 30px;
+    color:rgb(184, 184, 184)
 }
 
-.options {
+#asearchbutton {
+    width: 120px;
+    height: 30px;
+    background-color: #4888ef;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    margin-right: 8%;
+}
+
+#asearchbutton:hover {
+    cursor: pointer;
+    border: 1px solid #4888ef;
+    background-color: #75a1e7;
+}
+
+#asearchbutton-container {
+    width: 100%;
+    text-align: right;
+}
+
+#asearchbar {
+    width: 80%;
+}
+
+#advancedsearch {
     display: flex;
+    flex-wrap: wrap;
+}
+
+#findpagestitle {
+    margin: 30px;
+    color: white;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.pagetitle {
+    color: white;
+    font-size: 45px;
+}
+
+.pagetitle-as {
+    margin: 50px 30px 30px 30px;
+    color: rgb(252, 148, 148);
+    font-size: 30px;
 }
